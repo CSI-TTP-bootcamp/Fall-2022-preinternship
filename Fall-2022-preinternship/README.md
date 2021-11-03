@@ -5,7 +5,7 @@ Class Days and Class Times:
 Monday - Friday, 10:00AM - 4:00PM
 
 Dates:
-January 3rd, 2022 (Monday) - January 27th, 2022 (Friday)
+January 3rd, 2022 (Monday) - January 28th, 2022 (Friday)
 
 Blackboard: https://bbhosted.cuny.edu/webapps/blackboard/content/listContentEditable.jsp?content_id=_61505000_1&course_id=_2072238_1
 
