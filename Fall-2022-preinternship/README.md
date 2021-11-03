@@ -1,4 +1,4 @@
-# Tech Talent Pipeline Residency: Fall 2021 Bootcamp
+# Tech Talent Pipeline Residency: Fall 2022 Bootcamp
 
 Class Days and Class Times:
 
