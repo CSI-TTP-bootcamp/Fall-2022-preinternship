@@ -7,15 +7,15 @@ Monday - Friday, 10:00AM - 4:00PM
 Dates:
 January 3rd, 2022 (Monday) - January 28th, 2022 (Friday)
 
-Blackboard: https://bbhosted.cuny.edu/webapps/blackboard/content/listContentEditable.jsp?content_id=_61505000_1&course_id=_2072238_1
+Blackboard: https://bbhosted.cuny.edu/webapps/blackboard/content/listContent.jsp?course_id=_2072238_1&content_id=_61473180_1&mode=reset
 
-Slack Workspace: https://ttpatcsi.slack.com/archives/C01GJ7Q1Z35
+Slack Workspace: https://ttpatcsi.slack.com/archives/C02KVJ0HREH
 
-Lead Instructor: TBD
+Lead Instructor: Greem Lee
 
-Lead Teaching Assistant: TBD
+Lead Teaching Assistant: Alexander Manger
 
-Teaching Assistants: TBD
+Teaching Assistants: Andrea Habib, Alexey Aulov, Johnathan Leibovici, Jacob Chen, Walter Broncano
 
 Program Manager: Sabine Salandy
 
@@ -85,7 +85,7 @@ Daily Schedule (Subject To Change!)
 
 **Pre-Bootcamp Material**
 
-- [Assignment 0](https://docs.google.com/presentation/d/1D7hIYVrQJAIAvLVjTAKk6k3L_hfZOU_QUV72zvPK9vo/edit#slide=id.g7838448385_0_811)
+- [Assignment 0](https://www.dropbox.com/scl/fi/y1ceyu3u5lsu5maeoq595/Pre-Internship-Seminar-2022_-Prework.pptx?dl=0&rlkey=p9f0dobzeg41cuy7kpurfcygk)
 - [CSS Diner Exercise](https://flukeout.github.io/)
 - [Flexbox Froggy Exercise](https://flexboxfroggy.com/)
 - [Flexbox Zombies Exercise](https://mastery.games/p/flexbox-zombies)
@@ -94,7 +94,7 @@ Daily Schedule (Subject To Change!)
 
 - [Hackerrank Pre-Assessment](https://www.hackerrank.com/test/eni9i5rsi03/2e1d4f950c4c3ae0cce9126578719d6f?try_test=true&email=ka.tom@cuny.edu)
 
-- [Google Classroom/ Onboarding](https://classroom.google.com/w/MTg1OTE1MTkwNzE2/t/all)
+- [Blackboard/ Onboarding](https://bbhosted.cuny.edu/webapps/blackboard/content/listContent.jsp?course_id=_2072238_1&content_id=_61473180_1&mode=reset)
 
 - [Build a Tribute Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
 
