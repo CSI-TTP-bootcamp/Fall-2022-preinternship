@@ -21,7 +21,7 @@ Program Manager: Sabine Salandy
 
 Career Coach: Omar Duran
 
-Emails: TBD, sabine.salandy@csi.cuny.edu, omar.duran@csi.cuny.edu
+Emails: greem.lee@csi.cuny.edu, sabine.salandy@csi.cuny.edu, omar.duran@csi.cuny.edu
 
 ---
 
