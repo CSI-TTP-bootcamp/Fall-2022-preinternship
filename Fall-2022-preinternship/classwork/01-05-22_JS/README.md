@@ -322,29 +322,29 @@ typeof NaN //'number'
     // { a: 2, b: 1, c: 2}
   ```
 
-  ### array.map() // arr
+  ### array.map() 
   * The map method takes a callback function and creates a new array by performing the callback on each array element.
   * map can also take an optional index array.
   * map does not mutate the original array. It instead returns a new array of the same length as the original array with the result of operating the callback function.
+   ```js
+      // .map 
+      const itemArray = [
+          {genre: "val1", bpm: "val2"},
+          {genre: "hip hop", bpm: 130 },
+          {genre: "pop", bpm: 120},
+          {genre: "indie rock", bpm: 100}
+      ]
 
-    ```js
-    // .map 
-    const itemArray = [
-        {genre: "val1", bpm: "val2"},
-        {genre: "hip hop", bpm: 130 },
-        {genre: "pop", bpm: 120},
-        {genre: "indie rock", bpm: 100}
-    ]
+      const genreName = itemArray.map ( (eachItemObj) => {
+          return eachItemObj.bpm
+      })
 
-    const genreName = itemArray.map ( (eachItemObj) => {
-        return eachItemObj.bpm
-    })
-
-    console.log(genreName)
-  ```
+      console.log(genreName)
+    ```
+  
 
 
-  ### array.reduce() // 1 val
+### array.reduce() // 1 val
   * The reduce method takes a callback function and an iterator (which can be any data type) and runs the callback on each array element to reduce it to a single value.
   * Your callback should take at least two arguments, which are regularly known as previous and next. These will be used to reduce each value in the array into the iterator, and as such your callback must return a value to be used on the next iteration.
   * Reduce does not mutate the original array, but it does return a new value based on the callback function.
