@@ -295,16 +295,87 @@ typeof NaN //'number'
   * forEach can also take an optional index argument to keep track of the index that you are currently working with. 
   * forEach function does not mutate the array that it is being operated on, and does not return any value itself.
 
+  ```js
+    let numbers = ["h","e", "l", "l", "o", 2, 3, 4, 5, 6, 7, 8 ]
+
+    //1. for loop
+    for( let index = 0 ; index < numbers.length; index++ ){
+        console.log(numbers[index], index)
+    }
+
+    //2. long call back function 
+    numbers.forEach(callbackFunc)
+
+    function callbackFunc (m){
+        console.log(m)
+    }
+    //3. arrow function 
+    numbers.forEach((item, idx) => {
+        console.log(item, idx)}
+        )
+    //4.  one liner 
+    numbers.forEach(( item ) => console.log(item))
+
+    //Quizzzzz iterate this letter
+    let letters = ["a", "b", "a", "c", "c"]
+
+    // { a: 2, b: 1, c: 2}
+  ```
+
   ### array.map() // arr
   * The map method takes a callback function and creates a new array by performing the callback on each array element.
   * map can also take an optional index array.
   * map does not mutate the original array. It instead returns a new array of the same length as the original array with the result of operating the callback function.
+
+    ```js
+    // .map 
+    const itemArray = [
+        {genre: "val1", bpm: "val2"},
+        {genre: "hip hop", bpm: 130 },
+        {genre: "pop", bpm: 120},
+        {genre: "indie rock", bpm: 100}
+    ]
+
+    const genreName = itemArray.map ( (eachItemObj) => {
+        return eachItemObj.bpm
+    })
+
+    console.log(genreName)
+  ```
+
 
   ### array.reduce() // 1 val
   * The reduce method takes a callback function and an iterator (which can be any data type) and runs the callback on each array element to reduce it to a single value.
   * Your callback should take at least two arguments, which are regularly known as previous and next. These will be used to reduce each value in the array into the iterator, and as such your callback must return a value to be used on the next iteration.
   * Reduce does not mutate the original array, but it does return a new value based on the callback function.
 
+
+  ```js
+    let numbers =[ 2, 5, 20, 9, 3, 5, 7, 100000, 8 , 13]
+
+    // arr.reduce()
+    function maxNum ( acc, val) {
+        console.log("ACC::", acc, "Current Val::", val)
+        if(val > acc){
+            acc = val
+        }
+        return acc;
+    }
+
+    let biggestNum = numbers.reduce(maxNum)
+    console.log(biggestNum)
+
+    // arr.reduce()
+    let biggestNum = numbers.reduce((acc, val) => {
+        if (val>  acc){
+            console.log(acc, val)
+            acc = val
+        }
+        return acc;
+    }, 0)
+
+    console.log(biggestNum)
+  ```
 
 
 
