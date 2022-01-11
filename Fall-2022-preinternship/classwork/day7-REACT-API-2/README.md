@@ -160,8 +160,8 @@ Use this.props to access props
         try{
             //4 fetch the track list. by default fetch request is GET method
             const response = await fetch("http://localhost:8080/todos")
-            //5 parse the response into a json data structure
-            const jsonData = response.json()
+            //5 parse the response into a json data structure. Make sure to add await so later when you use .map method, you can iterate the array, instead of promised array
+            const jsonData = await response.json()
 
             //6 console log the data
             console.log(jsonData)
