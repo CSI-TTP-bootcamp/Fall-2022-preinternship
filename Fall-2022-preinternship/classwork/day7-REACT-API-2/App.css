@@ -1,0 +1,9 @@
+body{
+  background: rgb(164,255,165);
+background: linear-gradient(90deg, rgba(164,255,165,1) 0%, rgba(255,77,77,1) 84%, rgba(164,237,250,1) 100%);
+}
+
+*{
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
