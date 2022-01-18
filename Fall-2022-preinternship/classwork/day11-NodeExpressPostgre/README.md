@@ -1,6 +1,6 @@
 # DAY 11 NODE JS EXPRESS JS POSTGRESQL
 
-# SWBAT hello
+# SWBAT
 [] visualize/explain `RESTful API` and `HTTP request`
 
 [] utilize `npm init`
