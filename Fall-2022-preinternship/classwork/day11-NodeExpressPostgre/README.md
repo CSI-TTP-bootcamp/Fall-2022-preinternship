@@ -1,6 +1,6 @@
 # DAY 11 NODE JS EXPRESS JS POSTGRESQL
 
-# SWBAT
+# SWBAT 
 [] visualize/explain `RESTful API` and `HTTP request`
 
 [] utilize `npm init`
@@ -82,31 +82,31 @@
 
 * Transfer protocol : HTTP request (Post, Get, Put, Delete)
 
-* Restful API takes the HTTP request then instruct the DB what kinds of CRUD operation needs to get done. 
+* Restful API takes the HTTP request then instructs the DB what kinds of CRUD operation needs to be done. 
 
 * CRUD operation does NOT happen in the RESTful API, only happens in the DB.
 
 
 `$npm init`
-## what is npm init?
-* `NPM init` will initialize NPM, to manage Node package. 
-* `package.json` file will be created with summary of your NPM. 
-* Modules will be located in `node_modules` folder.
+## What is npm init?
+* `NPM init` will initialize NPM, to manage Node packages. 
+* `package.json` file will be created with a summary of your NPM. 
+* Modules will be located in the `node_modules` folder.
 * NPM will track of all the packages in our application
 
 `$npm i express` 
-## what is express?
+## What is express?
 Express, is a back end web application framework for Node.js, released as free and open-source software. It is designed for building web applications and APIs. Express allows developers to quickly create a server in nodeJS. 
 
 `$npm i pg`
-# what is pg?
+# What is pg?
 pg stands for PostgreSQL. It will be our SQL relational database management system.
 
 `SQL vs postgreSQL`
-SQL server is a database management system which is mainly used for e-commerce and providing different data warehousing solutions. PostgreSQL is an advanced version of SQL which provides support to different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions.
+SQL server is a database management system which is mainly used for e-commerce and providing different data warehousing solutions. PostgreSQL is an advanced version of SQL which provides support to different functions of SQL like foreign keys, sub-queries, triggers, and different user-defined types and functions.
 
 `mongoDB vs postgreSQL`
-MongoDB is a NoSQL database where each record is a document comprising of key-value pairs that are similar to JSON objects with schemas. 
+MongoDB is a NoSQL database where each record is a document consisting of key-value pairs that are similar to JSON objects with schemas. 
 
 `benefit of postgre`
 -Postgres performed between 4 and 15 times faster than MongoDB across a range of scenarios
@@ -114,10 +114,10 @@ MongoDB is a NoSQL database where each record is a document comprising of key-va
 -Easy to learn!
 
 `$npm i cors` 
-## what is cors?
-* CORS(Cross-Origin Resource Sharing) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. Simply put it allows different domains application to interact with each other.
+## What is `cors`?
+* CORS(Cross-Origin Resource Sharing) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. Simply put it allows different domain applications to interact with each other.
 
-ex) The server is going to be running on `localhost:8080` and react will be running on `localhost:4000` Cors will connect the the domains.
+ex) The server is going to be running on `localhost:8080` and react will be running on `localhost:4000` Cors will connect the domains.
 
 `$touch index.js`
 ## create an index.js
@@ -132,7 +132,7 @@ const app = express();
 ```
 
 ## How to start the server?
-in order for the server to start, app needs to listen to the port number. Use the callback function indicating that the server has started.
+In order for the server to start, the app needs to listen to the port number. Use the callback function indicating that the server has started.
 
 ```js
 const PORT = 8080
@@ -142,15 +142,15 @@ app.listen(PORT, () => {
 ```
 
 * run `node index.js`
-- The issue here is that when we change the code everytime, it wouldn't automatically update. 
-- We don't want to use `$node index.js`, which we constantly have to kill the server terminal and restart whenever there're new changes.
+- The issue here is that when we change the code every time, it wouldn't automatically update. 
+- We don't want to use `$node index.js`, which we constantly have to kill the server terminal and restart whenever there are new changes.
 
 `$npm i nodemon --save -dev`
 # Nodemon
 
-## why use nodemon?
-* We don't want to use $node index.js, which we constantly having to kill the server terminal and restart whenever there're new changes.
-* Nodemon watches a single file and every time there's any changes, it's going to be instantly restart it. 
+## Why use nodemon?
+* We don't want to use $node index.js, which we constantly have to kill the server terminal and restart whenever there are new changes.
+* Nodemon watches a single file and every time there's any changes, it's going to instantly restart it. 
 
 debug
 `nodemon ./index.js` not working
@@ -179,8 +179,8 @@ const cors = require("cors")
 ex) The server is going to be running on `localhost:8080` and react will be running on `localhost:4000` Cors will connect the frontend domain host and the backend domain host in order to run the postgres queries.
 
 
-## How to use middle wares?
-Middleware is software that lies between an operating system and the applications running on it. Essentially functioning as hidden translation layer, middleware enables communication and data management for distributed applications.
+## How to use middleware?
+Middleware is software that lies between an operating system and the applications running on it. Essentially functioning as a hidden translation layer, middleware enables communication and data management for distributed applications.
 
 ```js
 //index.js
@@ -234,24 +234,24 @@ CREATE TABLE flower(
 ## What is SERIAL?
 The SERIAL data type stores a sequential integer.
 
-## What is primary key?
+## What is the primary key?
 Primary key is a unique key that identifies each row in a database table.
 
 ## What is VARCHAR(255)?
 Allowing 255 characters
 
 ## Using `postgres` super admin
-`postgres` is the super user that allows the developer to access to all the database and tables in the postgres. 
+`postgres` is the super user that allows the developer to access all the database and tables in the postgres. 
 
-* BUG !!!!! just use postgre APP or debug 
+
 ``` t
 $psql -U postgres
 ```
-* if psql doesn't run, try to `brew install postgresql` or just use the `POSTGRES APP`
+* if psql doesn't run on your local machine, try to `brew install postgresql` or just use the `POSTGRES APP`
 
 * enter the password
 
-* postgres=# now you are in the postgres database. You need to create a new database.
+* postgres=# Now you are in the postgres database. You need to create a new database.
 
 * How to list all the database in postgresql
 postgres=# `\l`
@@ -282,8 +282,9 @@ SELECT * FROM flower;
 
 With the pool from the PG(Pretty Good or PostGre) library, it is pretty easy to connect the postgreSQL database and the Express server. 
 
-## What is pool?
-Pool is a middleware, part of postgres library that connects postgreSQL database the server. With the pool, we can run query with postgreSQL.
+## What is Pool?
+Pool is a middleware, part of postgres library that connects the postgreSQL database to the server. With the pool, we can run queries with postgreSQL.
+
 
 * create `db.js` file.
 ```js
@@ -308,7 +309,7 @@ module.exports = pool;
 const pool = require("./db")
 ```
 
-* pool.query exmaple
+* pool.query example
 ```js
 app.get("/flowers", async(req, res) => {
   const allflowers = await pool.query("SELECT * FROM flower");
@@ -334,7 +335,7 @@ app.get("/flowers", async(req, res) => {
 //routes REST api request
 //create a flower
 app.post("/flowers", async (req, res) => {
-  //1. `app.post("path", async (req, res) => {} )` using `app.post` decide the URL path that you will use, then utilize the async arrow function.
+  //1. `app.post("path", async (req, res) => {} )` using `app.post` decides the URL path that you will use, then utilizes the async arrow function.
 
   try{
   // 2. try / catch
@@ -342,7 +343,7 @@ app.post("/flowers", async (req, res) => {
    const {color} = req.body;
   //3. In try, create a new object key called `color` with the object, `req.body`.
 
-  //4. create a new variable called `newflower` using `await` and connect the server and the database using pool query and add the SQL code.
+  //4. create a new variable called `newflower` using `await` and connect the server and the database using a pool query and add the SQL code.
    const newflower = await pool.query("
    INSERT INTO flower (color) 
    VALUES($1) RETURNING *
@@ -360,7 +361,7 @@ app.post("/flowers", async (req, res) => {
 })
 ```
 
-`async` request : it's going to take a while to receive the data back from the database. Therefore, utilizing the asyncronous request allows the nodeJS to execute other codes while it's waiting for the db to respond.
+`async` request : it's going to take a while to receive the data back from the database. Therefore, utilizing the asynchronous request allows the nodeJS to execute other codes while it's waiting for the db to respond.
 
 `req` request from the client side
 `res` response that we are sending back to the client 
@@ -430,7 +431,7 @@ app.get("/path/:id", async (req, res) => {
 * Store the `pool.query` in a variable, `updateData` then use the SQL query to `UPDATE`
 * Specify the column the data needs to be updated `SET columnName = $1`
 *  Specify the location where the id equals the id `WHERE secondColumn = $2`
-*  Return the respond back to the client with the "the data was updated"
+*  Return the response back to the client with the "the data was updated"
 
 ```js
 app.put("/path/:id", async (req, res) => {
