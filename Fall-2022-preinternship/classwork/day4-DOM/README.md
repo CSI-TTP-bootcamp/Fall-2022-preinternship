@@ -27,7 +27,7 @@
 ## The DOM is a Tree 🎄
 - What is a tree in computer science? A data structure that represents some hierarchical structure; parent nodes (elements), child nodes, sibling nodes. Trees look like upside down trees:
 
-![tree](https://webdocs.cs.ualberta.ca/~aixplore/learning/DecisionTrees/InterArticle/graphics/inverted-tree.gif)
+![tree](https://i.imgur.com/9otIgXu.png)
 
 - Here is another representation of a tree with a root node and several children or branches:
 
