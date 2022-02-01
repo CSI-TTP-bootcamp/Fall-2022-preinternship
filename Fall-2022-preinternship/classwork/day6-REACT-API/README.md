@@ -1,12 +1,20 @@
 ## SWBAT  [Students Will Be Able To]
 [] Utilize `npx create-react-app`
+
 [] Understand what Fragment is and choose either Fragment or <> for JSX return value
+
 [] Visualize / identify Component hierarchy
+
 [] Briefly explain different ways to define function, including let, const and arrow
+
 [] Use `bootstrap` walk through the workflow
+
 [] Manipulate the DOM by changing values in `state` instead of using vanilla JS
+
 [] Explain what virtual DOM is
+
 [] Learn how to submit data
+
 [] Explain async/await
 
 
