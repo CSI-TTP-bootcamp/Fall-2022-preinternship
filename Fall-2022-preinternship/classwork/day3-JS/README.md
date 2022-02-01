@@ -36,7 +36,7 @@
   * When the browser sees JavaScript, it attempts to run it immediately
 
 ### JavaScript Data Types Overview
- * Primitive data types ?
+ * Primitive data types 
     1. Symbol
     2. Undefined
     3. Null
