@@ -9,7 +9,7 @@
 [] Use google font
 [] Utilize gradient background
 [] Understand how to code with `useEffect`
-[] Explain how we can fetch data from the server 
+[] Explain how we can fetch data from the server (CRUD: READ)
 [] Utilize bootstrap table in JSX
 [] Show `.map` method to iterate the json data
 [] Review `async` and `sync`
@@ -87,7 +87,7 @@ Use this.props to access props
 
 * gradient background
 
-
+# CRUD : Read
 # Build ListTracks
 * Build ListTracks
 

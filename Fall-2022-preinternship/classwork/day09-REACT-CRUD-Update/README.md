@@ -108,7 +108,7 @@
 
     Something else to keep in mind: Headers and parameters are also important in the HTTP methods of a RESTful API HTTP request, as they contain important identifier information as to the request's metadata, authorization, uniform resource identifier (URI), caching, cookies, and more. There are request headers and response headers, each with their own HTTP connection information and status codes. (excerpt from redhat)
 
-
+# CRUD
 ### Edit Track
 * Create a `EditTrack` component
 

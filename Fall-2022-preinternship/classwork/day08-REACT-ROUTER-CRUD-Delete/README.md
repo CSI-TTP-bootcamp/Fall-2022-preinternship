@@ -202,6 +202,7 @@ export default function Navbar() {
 ```
 
 
+# CRUD
 # Delete
 
 -1. add button html tag and className
