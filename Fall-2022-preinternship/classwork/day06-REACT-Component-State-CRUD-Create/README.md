@@ -1,5 +1,5 @@
 ## SWBAT  [Students Will Be Able To]
-[ ] Utilize `npx create-react-app`
+[] Utilize `npx create-react-app`
 
 [] Understand what Fragment is and choose either Fragment or <> for JSX return value
 
