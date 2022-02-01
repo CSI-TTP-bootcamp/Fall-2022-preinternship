@@ -79,7 +79,8 @@
    -tedious
    -typos
 
-## READ ### Selecting DOM Nodes
+## CRUD(READ) 
+### Selecting DOM Nodes
 
  * How should we select the logo `Airbnb for Wild Animals` dynamically?
 
@@ -96,7 +97,8 @@
  
  https://www.w3schools.com/cssref/css_selectors.asp
 
-## Update ### Modifying DOM Nodes
+## CRUD(Update) 
+### Modifying DOM Nodes
 
  - JavaScript allows us to **traverse** this tree to find and _manipulate_ different `nodes` 
  * Elements (`nodes`) have properties that can be manipulated (`style`, `textContent`, `innerHTML`, etc). 
