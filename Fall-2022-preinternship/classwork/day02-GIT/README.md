@@ -1,44 +1,44 @@
 #### Students will be able to:
-[] Explain what Git is\
-[] Define Version Control System\
-[] make the distinction between centralized VCS and Distributed VCS\
-[] Identify Github\
-[] make the distinction between `git` and `github`\
-\
-[] Explain terminal/CLI commands\
-[] Introduce essential Git commands\
-[] method 1: Start with Github\
-    [] Show github and walk through the `Github` workflow \
-        [] Create a repo\
-        [] Create a README.md page\
-        [] Discuss md and readme\
-        [] Commit\
-        [] examine history page\
-    [] Practice `Github` workflow on the local machine on VSC\
-        [] ohmyzsh\
-        [] git clone \
-        [] know if the folder has git history\
-        [] know which branch you are on\
-        [] add all files to the Git stage area\
-        [] make a permanent snapshot with a message\
-\
-[] method 2: Start with the local machine\
-    [] Walk through the steps on VSC\
-        * `$mkdir <foldername>`\
-        * `$cd <foldername>`\
-        * `$touch <filename>`\
-        * `$git init`\
-        * `$git status`\
-        * `$git add .`\
-        * `$git commit -m "message"`\
-        * `$git push -u origin main` XXX doesn't work FATAL\
-        *  go to github website and create a repo\
-        * `$git remote add origin <url>` \
-        * `$git push -u origin <main>` -upstream, default let you just use git push in the future\
-        * `$git push`\
-\
-[] Explain Git branching\
-    [] walk through git branching steps\
+- [ ] Explain what Git is
+- [ ] Define Version Control System
+- [ ] make the distinction between centralized VCS and Distributed VCS
+- [ ] Identify Github
+- [ ] make the distinction between `git` and `github`
+
+- [ ] Explain terminal/CLI commands
+- [ ] Introduce essential Git commands
+- [ ] method 1: Start with Github
+    - [ ] Show github and walk through the `Github` workflow 
+        - [ ] Create a repo
+        - [ ] Create a README.md page
+        - [ ] Discuss md and readme
+        - [ ] Commit
+        - [ ] examine history page
+    - [ ] Practice `Github` workflow on the local machine on VSC
+        - [ ] ohmyzsh
+        - [ ] git clone 
+        - [ ] know if the folder has git history
+        - [ ] know which branch you are on
+        - [ ] add all files to the Git stage area
+        - [ ] make a permanent snapshot with a message
+
+- [ ] method 2: Start with the local machine
+    - [ ] Walk through the steps on VSC
+        * `$mkdir <foldername>`
+        * `$cd <foldername>`
+        * `$touch <filename>`
+        * `$git init`
+        * `$git status`
+        * `$git add .`
+        * `$git commit -m "message"`
+        * `$git push -u origin main` XXX doesn't work FATAL
+        *  go to github website and create a repo
+        * `$git remote add origin <url>` 
+        * `$git push -u origin <main>` -upstream, default let you just use git push in the future
+        * `$git push`
+
+- [ ] Explain Git branching
+    - [ ] walk through git branching steps
 
 # Do you have git on your local machine? lol
 git --version

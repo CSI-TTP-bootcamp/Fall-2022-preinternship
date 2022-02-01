@@ -1,45 +1,45 @@
 # DAY 11 NODE JS EXPRESS JS POSTGRESQL
 
 # SWBAT 
-[] visualize/explain `RESTful API` and `HTTP request`
+- [ ] visualize/explain `RESTful API` and `HTTP request`
 
-[] utilize `npm init`
+- [ ] utilize `npm init`
 
-[] install `expressJS` and explain how ExpressJS will be helpful for the application
+- [ ] install `expressJS` and explain how ExpressJS will be helpful for the application
 
-[] understand importance of `Cors`
+- [ ] understand importance of `Cors`
 
-[] utilize express by require express module
+- [ ] utilize express by require express module
 
-[] start the postgreSQL server and actively listen to it 
+- [ ] start the postgreSQL server and actively listen to it 
 
-[] choose a better method to run the server (by using `nodemon`) to eliminate having to kill and restart the server for each code updates `npm run watch`
+- [ ] choose a better method to run the server (by using `nodemon`) to eliminate having to kill and restart the server for each code updates `npm run watch`
 
-[] create a `middleware`
+- [ ] create a `middleware`
 
-[] create a postgreSQL database and a table
+- [ ] create a postgreSQL database and a table
 
-[] navigate the database hello
+- [ ] navigate the database hello
 
-[] write `SQL codes` to perform CRUD operation
+- [ ] write `SQL codes` to perform CRUD operation
 
-[] connect the `postgreSQL` `database` and the `server`
+- [ ] connect the `postgreSQL` `database` and the `server`
 
-[] explain what the `pool` is 
+- [ ] explain what the `pool` is 
 
-[] define and require pool 
+- [ ] define and require pool 
 
-[] `RESTful API/CRUD operation` : explain how RESTful API operates between the client and the database
+- [ ] `RESTful API/CRUD operation` : explain how RESTful API operates between the client and the database
 
-[] Create, or add new entries
+- [ ] Create, or add new entries
 
-[] Read, retrieve, search, or view existing entries
+- [ ] Read, retrieve, search, or view existing entries
 
-[] Update, or edit existing entries
+- [ ] Update, or edit existing entries
 
-[] Delete, deactivate, or remove existing entries
+- [ ] Delete, deactivate, or remove existing entries
 
-[] utilize `try / catch` structure with `async / await` function
+- [ ] utilize `try / catch` structure with `async / await` function
 
 
 ## Applications to download postgreSQL, pgAdmin, postman

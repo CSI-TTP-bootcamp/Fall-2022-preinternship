@@ -1,10 +1,10 @@
 ## SWBAT  [Students Will Be Able To]
-[] understand SRP(Single Responsibility Principle)
-[] Move the delete function to a brand new delete component to practice SRP
-[] visualize/explain `RESTful API` and `HTTP request`
-[] Explain how the frontend browser and backend server communicates
-[] Explain RESTful API
-[] Edit/update a data follow along 
+- [ ] understand SRP(Single Responsibility Principle)
+- [ ] Move the delete function to a brand new delete component to practice SRP
+- [ ] visualize/explain `RESTful API` and `HTTP request`
+- [ ] Explain how the frontend browser and backend server communicates
+- [ ] Explain RESTful API
+- [ ] Edit/update a data follow along 
 
 
 # SRP(Single Responsibility Principle)

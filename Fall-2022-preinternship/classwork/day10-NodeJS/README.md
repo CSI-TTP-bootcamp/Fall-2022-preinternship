@@ -1,21 +1,21 @@
 # SWBAT
-[] explain what protocol is
-[] define front end and backend
-[] understand difference between the relational database and the noSQL database
-[] explain what API is
-[] understands one of the roles of the backend, such as authentication and authorization
-[] explain NodeJS, ExpressJS, PostgreSQL
-[] Review essential JS concepts
-    * [] arrow function
-    * [] synchronous code vs asynchronous code
-    * [] promise
-    * [] async/await
-[] Know what node.js is
-[] Install Node.js for your operating system
-[] Learn how to enter node REPL (Read/Eval/Print/Loop)
-[] Be able to define what module is
-[] Learn how to get the builtin module
-[] Utilize `console` module
+- [ ] explain what protocol is
+- [ ] define front end and backend
+- [ ] understand difference between the relational database and the noSQL database
+- [ ] explain what API is
+- [ ] understands one of the roles of the backend, such as authentication and authorization
+- [ ] explain NodeJS, ExpressJS, PostgreSQL
+- [ ] Review essential JS concepts
+    * - [ ] arrow function
+    * - [ ] synchronous code vs asynchronous code
+    * - [ ] promise
+    * - [ ] async/await
+- [ ] Know what node.js is
+- [ ] Install Node.js for your operating system
+- [ ] Learn how to enter node REPL (Read/Eval/Print/Loop)
+- [ ] Be able to define what module is
+- [ ] Learn how to get the builtin module
+- [ ] Utilize `console` module
 
 
 ## What is protocol?

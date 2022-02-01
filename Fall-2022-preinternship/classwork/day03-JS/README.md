@@ -1,15 +1,15 @@
 ## SWBAT  [Students Will Be Able To]
-- [] Briefly explain the history of JS
-- [] Understand the role of JS in web development
-- [] Explain the relationship between HTML and JS
-- [] Use script tags to load JS into an HTML page
-- [] Explain the basic data types and data structures in JS
-  - [] primitive datatype (Undefined, Null, Boolean, Number, String, Symbol)
-  - [] non primitive datatype (object, array, function)
-- [] Explain the difference between pass-by-value and pass-by-reference
-- [] understand the destructuring assignment `const { description } = req.body`
-- [] Understand higher order function and callback function
-- [] Utilize callback function in array methods like `.forEach()`, `.map()`, and `.reduce()`
+- [ ] Briefly explain the history of JS
+- [ ] Understand the role of JS in web development
+- [ ] Explain the relationship between HTML and JS
+- [ ] Use script tags to load JS into an HTML page
+- [ ] Explain the basic data types and data structures in JS
+  - [ ] primitive datatype (Undefined, Null, Boolean, Number, String, Symbol)
+  - [ ] non primitive datatype (object, array, function)
+- [ ] Explain the difference between pass-by-value and pass-by-reference
+- [ ] understand the destructuring assignment `const { description } = req.body`
+- [ ] Understand higher order function and callback function
+- [ ] Utilize callback function in array methods like `.forEach()`, `.map()`, and `.reduce()`
 
 ### History of JavaScript
 * Early Days

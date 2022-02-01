@@ -1,18 +1,18 @@
 ## SWBAT  [Students Will Be Able To]
-[] Props
-    [] string
-    [] number
-    [] function
-    [] boolean
-    [] object
-[] Distinguish between class component and functional component
-[] Use google font
-[] Utilize gradient background
-[] Understand how to code with `useEffect`
-[] Explain how we can fetch data from the server (CRUD: READ)
-[] Utilize bootstrap table in JSX
-[] Show `.map` method to iterate the json data
-[] Review `async` and `sync`
+- [ ] Props
+    - [ ] string
+    - [ ] number
+    - [ ] function
+    - [ ] boolean
+    - [ ] object
+- [ ] Distinguish between class component and functional component
+- [ ] Use google font
+- [ ] Utilize gradient background
+- [ ] Understand how to code with `useEffect`
+- [ ] Explain how we can fetch data from the server (CRUD: READ)
+- [ ] Utilize bootstrap table in JSX
+- [ ] Show `.map` method to iterate the json data
+- [ ] Review `async` and `sync`
 
 
 # Props

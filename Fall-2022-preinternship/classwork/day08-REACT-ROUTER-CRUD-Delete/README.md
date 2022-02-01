@@ -1,10 +1,10 @@
 ## SWBAT  [Students Will Be Able To]
-[x] Review async / await issue from yesterday
-[x] Send the data to another component as a prop
-[x] Visualize how non-react and react browser sends http request to server and get response 
-[x] Explain benefit of React
-[x] Build routes using React Router
-[x] Delete one data, send a delete fetch request, using an emoji
+- [x] Review async / await issue from yesterday
+- [x] Send the data to another component as a prop
+- [x] Visualize how non-react and react browser sends http request to server and get response 
+- [x] Explain benefit of React
+- [x] Build routes using React Router
+- [x] Delete one data, send a delete fetch request, using an emoji
 
 
 ## Assignment: bank of react : router
