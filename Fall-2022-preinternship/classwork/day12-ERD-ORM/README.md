@@ -55,17 +55,17 @@ eg) A purchase belongs to a customer and an item
 
 ## One-to-one relationship
 A single instance(row) of one entity(table) has a relationship to a single instance(row) of another entity(table).
-eg) country ------- capital
-eg) person ------- passport 
-eg) person ------- driver license number
+- eg) country ------- capital
+- eg) person ------- passport 
+- eg) person ------- driver license number
 
 ## One-to-many relationship
 A single instance(row) of entity can have a relationship with many instances of another entity.
-eg) customer --------< pizza orders
-eg) employer --------< employees
-eg) bus ------------< passengers
-eg) youtube video ----------< comments
-eg user ------------< tweets
+- eg) customer --------< pizza orders
+- eg) employer --------< employees
+- eg) bus ------------< passengers
+- eg) youtube video ----------< comments
+- eg user ------------< tweets
     A User has many Tweets
     A Tweet belongs to a User
 
@@ -74,9 +74,9 @@ https://twitter.com/coffee_dad?lang=en
   
 ## Many-to-Many relationship
 Many instances of an entity can have many instances of another entity.
-eg1) Student ----< enrollment >---- course
-eg2) Customer ----< purchase >---- item
-eg3) Food ----< Review >----- Eater
+- eg1) Student ----< enrollment >---- course
+- eg2) Customer ----< purchase >---- item
+- eg3) Food ----< Review >----- Eater
         A Food has many Reviews
         A Review belongs to a Food
         A Review belongs to a Eater
@@ -88,24 +88,11 @@ eg3) Food ----< Review >----- Eater
         reviews - id, review, food_id, eater_id 
         eaters - id, name
 
-
-It's all mouthful.
-
-
-
-
 Object - key;value pair, instance of a class, data/behavior
 Relational - one - one, one-many, many to many, relational database
 Mapper 
 
-ORM
-
-
-
-
-
-
-
+ORM: Instead of using SQL queries, ORM sends JS object to the database
 
 ![orm-sequelize](https://i.imgur.com/ReEg5nW.png)
 
